@@ -15,9 +15,7 @@ header{
             object-fit: cover;
         }
     }
-
     //content
-
     .header__wrapper{
         padding-left: 156px;
         position: absolute;
@@ -49,8 +47,6 @@ header{
                 }
             }
         }
-
-
         .title-block{
             align-self: center;
             width: 45%;
@@ -77,7 +73,6 @@ header{
                 padding: 24px 56px;
             }
         }
-
         .social{
             display: flex;
             flex-direction: column;
@@ -88,6 +83,76 @@ header{
                 }
             }
         }
+
+    }
+}
+
+//------------------------------------------------------------------------------
+
+.about-me{
+
+    .container{
+        padding: 170px 150px 0;
+
+        .top-content{
+            position: relative;
+            .des-work{
+                img{
+
+                }
+                h2{
+                    font-weight: 900;
+                    font-size: 70px;
+                    line-height: 93px;
+                    letter-spacing: 0.03em;
+                }
+
+                .des-text{
+                    display: flex;
+                    p{
+                        margin-right: 55px;
+                        width:25%;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 35px;
+                        letter-spacing: 0.02em;
+                    }
+                }
+            }
+
+            .right-photo{
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                img:first-child{
+                    width: 100%;
+                    object-fit: cover;
+                }
+                img:last-child{
+                    position: absolute;
+                    top: 19%;
+                    right: 71%;
+                    width: 60%;
+                    object-fit: cover;
+                }
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
